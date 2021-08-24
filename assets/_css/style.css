@@ -892,6 +892,8 @@ footer {
     display: flex;
     flex-direction: column;
     background-color: #999;
+    margin-right: 25px;
+    
 }
 .footerAreaRightInput input {
     outline: none;
