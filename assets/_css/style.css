@@ -1101,6 +1101,9 @@ footer {
        margin: auto;
         
     }
+    .footerAreaRight .footerAreaRightInput {
+        margin: auto;
+    }
 }
 
 @media (max-width: 500px) {
@@ -1269,5 +1272,8 @@ footer {
     .footerAreaRight {
         margin-left: 20px;
         margin-right: 20px;
+    }
+    .footerAreaRight .footerAreaRightInput {
+        margin: auto;
     }
 }
