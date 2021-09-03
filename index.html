@@ -25,9 +25,11 @@
 
             <div class="menu">
                 <!----------BUTTON MENU---------->
-                <img class="menuOpener" src="assets/_icon/menu.png" alt="">
+                <div class="menuOpenerArea">
+                    <img class="menuOpener" onclick="menuToggle()" src="assets/_icon/menu.png" alt="">
+                </div>
                 <nav>
-                    <ul>
+                    <ul class="navUl">
                         <li  class="active"><a href="">Home</a></li>
                         <li><a href="">About Us</a></li>
                         <li><a href="">Services</a></li>
@@ -762,5 +764,9 @@
         </div>
     </div>
 </footer>  
+
+
+<!----------SCRIPT JS---------->
+<script src="assets/_js/script.js"></script>
 </body>
 </html>
